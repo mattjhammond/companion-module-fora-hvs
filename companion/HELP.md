@@ -10,6 +10,7 @@ This module has been tested on the following switcher models. If you would like 
 
 - HVS 100/110
 - HVS 2000
+- HVS 390 (ME1 and ME2)
 
 ## Current Features
 
@@ -21,16 +22,19 @@ This module has been tested on the following switcher models. If you would like 
   - Recall/playback macros by id #
   - Reboot the switcher
   - Send the switcher a custom command (**Note**: If you send something the switcher doesnt understand, it may drop the connection.)
-  - Variables for _Key On Air_ and _Last Recalled Event_
+  - **Feedbacks**
+    - ME Program Source: Change button style if a source is on Program
+    - ME Preview Source: Change button style if a source is on Preview
+  - **Presets**
+    - Program and Preview presets for each ME and the first 24 inputs.
+  - **Variables**
+    - Variables for _Key On Air_ and _Last Recalled Event_
+    - Tally (PVW / PGM / Clear)
 - HVS 100/110 Only
   - Recall events by id #
 - HVS2000 Only
   - Change MELite sources
 
 ## Planned / Coming Soon
-
 - Pull source names from the switcher
 - Better disconnect detection
-- **Feedbacks**
-  - Tally (PVW / PGM / Clear)
-  - Key status (ON AIR / CLEAR)
